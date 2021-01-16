@@ -11466,6 +11466,46 @@ section .dargdrop .bg .items.dragdrop p {
 
 section .dargdrop .bg .owl-carousel {
   padding: 0 40px;
+  position: relative;
+  color: #8492af;
+}
+
+section .dargdrop .bg .owl-carousel h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+section .dargdrop .bg .owl-carousel .owl-nav {
+  position: absolute;
+  left: 40px;
+}
+
+section .dargdrop .bg .owl-carousel .owl-nav .owl-prev, section .dargdrop .bg .owl-carousel .owl-nav .owl-next {
+  outline: none;
+}
+
+section .dargdrop .bg .owl-carousel .owl-nav .owl-prev:hover, section .dargdrop .bg .owl-carousel .owl-nav .owl-next:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+section .dargdrop .bg .owl-carousel .owl-nav .owl-prev span, section .dargdrop .bg .owl-carousel .owl-nav .owl-next span {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #8492af;
+  border-radius: 50%;
+  display: block;
+  color: #8492af;
+}
+
+section .dargdrop .bg .owl-carousel .owl-nav .owl-prev span:hover, section .dargdrop .bg .owl-carousel .owl-nav .owl-next span:hover {
+  border-color: #fff;
+  color: #fff;
 }
 
 section .template {
