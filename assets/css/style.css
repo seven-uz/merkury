@@ -11467,3 +11467,206 @@ section .dargdrop .bg .items.dragdrop p {
 section .dargdrop .bg .owl-carousel {
   padding: 0 40px;
 }
+
+section .template {
+  padding: 40px 0;
+}
+
+section .template h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #0e1a35;
+  margin-bottom: 30px;
+}
+
+section .template p {
+  text-align: center;
+  color: #8492af;
+  padding: 0;
+  margin: 0;
+}
+
+section .template .image {
+  position: relative;
+  padding-top: 80px;
+}
+
+section .template .image .left {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  width: 250px;
+}
+
+section .template .image .left p {
+  text-align: left;
+  font-size: 16px;
+}
+
+section .template .image .left .line {
+  content: '';
+  position: relative;
+  margin: 20px 0;
+  width: 700px;
+  height: 3px;
+  background: #5886FF;
+}
+
+section .template .image .left .line:before {
+  content: '';
+  position: absolute;
+  background: rgba(88, 134, 255, 0.5);
+  top: -20px;
+  right: -20px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+section .template .image .left .line:after {
+  content: '';
+  position: absolute;
+  background: #5886FF;
+  top: -12px;
+  right: -12px;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+section .pricing {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+section .pricing h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #0e1a35;
+  margin-bottom: 40px;
+}
+
+section .pricing .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+section .pricing .price .item {
+  width: 26%;
+  -webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .pricing .price .item h3 {
+  font-size: 30px;
+  color: #0e1a35;
+}
+
+section .pricing .price .item .cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  color: #0e1a35;
+}
+
+section .pricing .price .item .cost span {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 48px;
+  margin-right: 5px;
+}
+
+section .pricing .price .item .cost p {
+  margin: 0;
+  padding: 0;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: bold;
+}
+
+section .pricing .price .item .cost small {
+  color: #8492af;
+  font-size: 24px;
+}
+
+section .pricing .price .item .skills {
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .pricing .price .item .skills li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+section .pricing .price .item .skills li img {
+  margin-right: 10px;
+}
+
+section .pricing p {
+  color: #8492af;
+  margin: 70px 0 30px;
+}
+
+section .pricing .btn {
+  background: #5886FF;
+}
+
+section .pricing .btn:hover {
+  background: none;
+  color: #5886FF;
+}
+
+footer {
+  background: #0e1a35;
+  padding: 30px;
+  color: #8492af;
+}
+
+footer h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer ul {
+  margin: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: #8492af;
+}
+
+footer ul li a img {
+  margin: 0 5px;
+}
