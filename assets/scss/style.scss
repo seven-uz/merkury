@@ -403,6 +403,18 @@ section{
             display: flex;
             flex-direction: column;
             align-items: center;
+            position: relative;
+            cursor: pointer;
+            border:1px solid transparent;
+            transition: all .3s linear;
+            -webkit-transition: all .3s linear;
+            -moz-transition: all .3s linear;
+            -ms-transition: all .3s linear;
+            -o-transition: all .3s linear;
+            &:hover{
+               box-shadow: 0 0 50px -5px rgba(#000,.3);
+               border:1px solid rgba($my-blue, .6);
+            }
             h3{
                font-size: 30px;
                color: #0e1a35;
@@ -411,12 +423,12 @@ section{
                display: flex;
                align-items: flex-end;
                text-align: center;
-               color: #0e1a35;
                span{
                   font-weight: bold;
                   font-size: 34px;
                   line-height: 48px;
                   margin-right: 5px;
+                  color: #0e1a35;
                }
                p{
                   margin: 0;
@@ -424,6 +436,7 @@ section{
                   font-size: 72px;
                   line-height: 72px;
                   font-weight: bold;
+                  color: #0e1a35;
                }
                small{
                   color: #8492af;

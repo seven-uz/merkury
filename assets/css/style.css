@@ -11613,6 +11613,20 @@ section .pricing .price .item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+}
+
+section .pricing .price .item:hover {
+  -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(88, 134, 255, 0.6);
 }
 
 section .pricing .price .item h3 {
@@ -11628,7 +11642,6 @@ section .pricing .price .item .cost {
       -ms-flex-align: end;
           align-items: flex-end;
   text-align: center;
-  color: #0e1a35;
 }
 
 section .pricing .price .item .cost span {
@@ -11636,6 +11649,7 @@ section .pricing .price .item .cost span {
   font-size: 34px;
   line-height: 48px;
   margin-right: 5px;
+  color: #0e1a35;
 }
 
 section .pricing .price .item .cost p {
@@ -11644,6 +11658,7 @@ section .pricing .price .item .cost p {
   font-size: 72px;
   line-height: 72px;
   font-weight: bold;
+  color: #0e1a35;
 }
 
 section .pricing .price .item .cost small {
